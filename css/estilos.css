@@ -1,0 +1,372 @@
+
+body{
+    background: white;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.header{
+    color: white;
+    background: #1d252c;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap ;
+}
+
+.header ol{
+    color: white;
+    display: flex;
+    height: inherit;
+}
+
+.header ol li{
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.header a{
+    display: flex;
+    align-items: center;
+    height: inherit;
+    color: white;
+    padding: 0 10px;
+}
+
+.header img{
+  height: 50px;
+}
+
+figure{
+    margin: 0;
+    
+}
+
+.menu{
+    height: inherit;
+    text-decoration: none;
+}
+
+ol, li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+h1{
+    font-size: 30px;
+    line-height: 130%;
+    letter-spacing: -2px;
+    color: white;
+    margin: 0;
+}
+
+h1 strong{
+    color: #026fff;
+    text-transform: uppercase;
+}
+
+.container{
+    border: 1px none red;
+    max-width: 1000px;
+    flex: 1;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: wrap;
+}
+
+.hero{
+    height: 200px;
+    background-color: #1d252c;
+    background-position-x: right;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero_img{
+    object-fit: cover;
+}
+
+.portfolio{
+    background: #fafafa;
+    padding: 3%;
+}
+
+.portfolio h2{
+    color: #026fff;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 40px;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.portfolio h3{
+    color: black;
+}
+
+.project{
+    background: white;
+    border: 1px solid gray;
+    border-radius: 10px; 
+    margin-bottom: 15px;
+    padding: 3%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.project_title{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 2%;
+}
+
+.project_course,
+.project_date{
+    margin: 10px 0;
+}
+
+.project_description{
+    font-size: 20px;
+
+}
+
+.project_text{
+    width: 50%;
+    height: 200px;
+}
+
+.project_imageContainer{
+    width: 50%;
+}
+
+.project_imageContainer img{
+    max-width: 100%;
+}
+
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid blue;
+    height: 200px;
+    flex-direction: column;
+}
+
+.box{
+    margin: 10px; 
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+}
+
+.eventos{
+    display: flex;
+    padding: 3%;
+    flex-wrap: wrap;
+}
+
+h2{
+    color: #026fff;
+    padding: 3%;
+    text-transform: uppercase
+}
+
+.event{
+    border: 1px solid blue;
+    margin: 5px;
+    width: 450px;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background: #fafafa;
+}
+
+.event h3{ 
+    display: flex;
+    text-align: center;
+    padding: 5%;
+    font-weight: bold;
+}
+
+.event img{
+    width: 480px; 
+    height: 200px;
+    object-fit: cover;
+}
+
+.event_description{
+    background-color: white;
+    margin: 20px;
+    margin-top: -30px;
+    position: relative;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.contact{
+    background-color: #026fff;
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.social{ 
+}
+
+.social_link {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px
+}
+
+.social_link.facebook{
+    background-image: url('../images/facebook.svg');
+    background-size: 50px;
+}
+
+.social_link.github{
+    background-image: url('../images/github.svg');
+    background-size: 50px;
+}
+
+.social_link.instagram{
+    background-image: url('../images/instagram.svg');
+    background-size: 50px;
+}
+
+.form_email input{
+    border-color: gray;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px 20px 10px 25px;
+    background-image: url('../images/envelope.svg');
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form_email button{
+    display: block;
+    background: transparent;
+    color: white;
+    padding: 10px 0;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form_email h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer{
+    width: 100%;
+    background-color:  #1b2127;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.footer img{
+    vertical-align: middle;
+}
+
+/* Desktop first */
+@media screen and (max-width: 1024px) {
+
+} 
+
+@media screen and (max-width: 767px) {
+    .header{
+        display: block;
+        height: auto;
+    }
+
+    .header ol{
+        display: initial;
+    }
+
+    .header ol li{
+        height: 50px;
+        justify-content: center;
+    }
+
+    .header .logo{
+        text-align: center;
+    }
+
+    .project{
+        display: block;
+    }
+
+    .project_imageContainer{
+        width: auto;
+    }
+
+    .project_text{
+        width: auto;
+        font-size: 16px;
+    }
+
+    .project_course .project_date{
+        margin: .3em 0:
+    }
+
+    .project_title{
+        font-size: 1.5em;
+    }
+
+    .project_course{
+        font-size: 1em;
+    }
+
+    .project_date{
+        font-size: 1em;
+    }
+
+    .project_description{
+        font-size: 1em;
+    }
+
+} 
+
+@media screen and (max-width: 425px) {
+    .project_text{
+        width: auto;
+        font-size: 14px;
+    }
+} 
+
+@media screen and (max-width: 320px) {
+    .project_text{
+        width: auto;
+        font-size: 16px;
+    }
+} 
